@@ -24,7 +24,7 @@ API First es una metodología de definición de APIs donde se prioriza la defini
 
 Este enfoque se enfrenta al tradicional Consumer-First, en el que primero se desarrolla la lógica y después la API que interactuará con dicha lógica o la UI.
 
-API First favorece, entre otras cosas, que la agregación de nuevas características de la apli sea algo más ordenado.
+API First favorece, entre otras cosas, que la agregación de nuevas características de la apli sea algo más ordenado. Además, reduce mucho el time to market, mejora la calidad de la API, mejora la seguridad y permite generar tests facilmente.
 
 
 Enlaces de interés:
