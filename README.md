@@ -11,6 +11,7 @@ Esto se ha logrado siguiendo el ejemplo expuesto en el siguiente artículo:
 Otros enlaces de interés:
  - https://www.baeldung.com/java-openapi-generator-server
  - https://github.com/OpenAPITools/openapi-generator
+ - https://openapi-generator.tech/docs/generators/spring/
 
 
 Para una correcta generación del codigo (en lo referente a anotaciones sobre todo) es necesario añadir las siguientes dependencias en el pom.xml del modulo de especificacion:
@@ -41,8 +42,12 @@ Se puede usar la especificación OpenAPI para generar los objetos DTO y las inte
 Definición oficial de OpenAPI:
 “La Especificación OpenAPI (OAS – OpenApi Specification) define un estándar, una interfaz de las APIs Restful hecha con lenguaje agnostico que permite tanto a humanos como a ordenadores descubrir y entender las posibilidades del servicio sin necesidad de acceder al código fuente, documentación o a través de la inspección del trafico de la red. Cuando es correctamente definida, un consumidor puede entender e interactuar con el servicio remoto con una cantidad mínima de implementación lógica”.
 
+Existe un editor muy recomendable llamado [Swagger](https://swagger.io) para crear esta especificación tanto en formato YAML o JSON. De manera que un documento OpenAPI que se ciñe a la OAS es un objeto JSON que puede ser representado en alguno de los formatos comentados antes. Existen otros editores como RAML, o API Blueprint.
+
 Enlaces de interés: 
+ - https://swagger.io/specification/
  - https://editor.swagger.io/
+ - https://swagger.io/docs/specification/data-models/data-types/
 
 # API First
 
