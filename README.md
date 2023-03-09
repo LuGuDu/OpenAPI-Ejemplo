@@ -41,7 +41,8 @@ Se puede usar la especificación OpenAPI para generar los objetos DTO y las inte
 Definición oficial de OpenAPI:
 “La Especificación OpenAPI (OAS – OpenApi Specification) define un estándar, una interfaz de las APIs Restful hecha con lenguaje agnostico que permite tanto a humanos como a ordenadores descubrir y entender las posibilidades del servicio sin necesidad de acceder al código fuente, documentación o a través de la inspección del trafico de la red. Cuando es correctamente definida, un consumidor puede entender e interactuar con el servicio remoto con una cantidad mínima de implementación lógica”.
 
-
+Enlaces de interés: 
+ - https://editor.swagger.io/
 
 # API First
 
