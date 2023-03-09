@@ -34,7 +34,19 @@ Para una correcta generación del codigo (en lo referente a anotaciones sobre to
 </dependency>
  ```
  
- 
+# API First
+
+API First es una metodología de definición de APIs donde se prioriza la definición del contrato antes de empezar con el resto de procesos de coficicación, testing, etc.
+
+Este enfoque se enfrenta al tradicional Consumer-First, en el que primero se desarrolla la lógica y después la API que interactuará con dicha lógica o la UI.
+
+API First favorece, entre otras cosas, que la agregación de nuevas características de la apli sea algo más ordenado. Además, reduce mucho el time to market, mejora la calidad de la API, mejora la seguridad y permite generar tests facilmente.
+
+
+Enlaces de interés:
+ - https://medium.com/@emilianozublena/api-first-development-c202a61cf3b2
+
+
 # Especificacion OpenAPI
 
 Se puede usar la especificación OpenAPI para generar los objetos DTO y las interfaces para los controladores rest de SpringBoot. Por otro lado, el equipo del frontend puede utilizar esta especificación OpenAPI para crear objetos y clientes para dicha API.
@@ -48,18 +60,6 @@ Enlaces de interés:
  - https://swagger.io/specification/
  - https://editor.swagger.io/
  - https://swagger.io/docs/specification/data-models/data-types/
-
-# API First
-
-API First es una metodología de definición de APIs donde se prioriza la definición del contrato antes de empezar con el resto de procesos de coficicación, testing, etc.
-
-Este enfoque se enfrenta al tradicional Consumer-First, en el que primero se desarrolla la lógica y después la API que interactuará con dicha lógica o la UI.
-
-API First favorece, entre otras cosas, que la agregación de nuevas características de la apli sea algo más ordenado. Además, reduce mucho el time to market, mejora la calidad de la API, mejora la seguridad y permite generar tests facilmente.
-
-
-Enlaces de interés:
- - https://medium.com/@emilianozublena/api-first-development-c202a61cf3b2
 
 
 # Documentacion de API
