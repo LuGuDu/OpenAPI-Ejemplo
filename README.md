@@ -7,8 +7,10 @@ El modulo de implementación se encarga de lanzar la aplicación Spring y de int
 
 Esto se ha logrado siguiendo el ejemplo expuesto en el siguiente artículo: 
  - https://medium.com/xgeeks/api-first-using-openapi-and-spring-boot-2602c04bb0d3
+
 Otros enlaces de interés:
  - https://www.baeldung.com/java-openapi-generator-server
+ - https://github.com/OpenAPITools/openapi-generator
 
 
 Para una correcta generación del codigo (en lo referente a anotaciones sobre todo) es necesario añadir las siguientes dependencias en el pom.xml del modulo de especificacion:
