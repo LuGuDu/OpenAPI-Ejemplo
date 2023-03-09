@@ -7,6 +7,40 @@ El modulo de implementación se encarga de lanzar la aplicación Spring y de int
 
 Esto se ha logrado siguiendo el ejemplo expuesto en el siguiente artículo: 
  - https://medium.com/xgeeks/api-first-using-openapi-and-spring-boot-2602c04bb0d3
+Otros enlaces de interés:
+ - https://www.baeldung.com/java-openapi-generator-server
+
+
+Para una correcta generación del codigo (en lo referente a anotaciones sobre todo) es necesario añadir las siguientes dependencias en el pom.xml del modulo de especificacion:
+```
+<dependency>
+    <groupId>org.openapitools</groupId>
+    <artifactId>jackson-databind-nullable</artifactId>
+    <version>0.2.1</version>
+</dependency>
+
+<dependency>
+    <groupId>io.swagger</groupId>
+    <artifactId>swagger-annotations</artifactId>
+    <version>1.6.2</version>
+</dependency>
+
+<dependency>
+    <groupId>org.springframework.data</groupId>
+    <artifactId>spring-data-commons</artifactId>
+</dependency>
+
+<dependency>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-core</artifactId>
+    <version>3.0.0</version>
+</dependency>
+
+<dependency>
+    <groupId>javax.validation</groupId>
+    <artifactId>validation-api</artifactId>
+</dependency>
+ ```
  
  
 # Especificacion OpenAPI
