@@ -54,3 +54,26 @@ API First favorece, entre otras cosas, que la agregación de nuevas característ
 
 Enlaces de interés:
  - https://medium.com/@emilianozublena/api-first-development-c202a61cf3b2
+
+
+# Documentacion de API
+
+Se puede lograr la ingeniería inversa añadiendo la siguiente dependencia al pom.xml del modulo de implementación:
+```
+<dependency>
+    <groupId>org.springdoc</groupId>
+    <artifactId>springdoc-openapi-ui</artifactId>
+    <version>1.6.4</version>
+</dependency>
+```
+
+Esta dependencia nos habilitará una serie de endpoints para nuestro servicio REST de manera que, gracias a Swagger, podremos documentar nuestra API, ver la especificación que hayamos hecho, o generar incluso un .yml.
+
+Para ello se nos facilitan unos endpoints, entre los cuales se encuentran los siguientes: 
+- http://localhost:8080/v3/api-docs/
+- http://localhost:8080/api-docs.yaml
+- http://localhost:8080/swagger-ui.html
+
+
+Enlaces de interés: 
+ - https://www.baeldung.com/spring-rest-openapi-documentation
