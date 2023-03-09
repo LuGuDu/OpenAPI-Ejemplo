@@ -26,17 +26,6 @@ Para una correcta generación del codigo (en lo referente a anotaciones sobre to
 </dependency>
 
 <dependency>
-    <groupId>org.springframework.data</groupId>
-    <artifactId>spring-data-commons</artifactId>
-</dependency>
-
-<dependency>
-    <groupId>io.springfox</groupId>
-    <artifactId>springfox-core</artifactId>
-    <version>3.0.0</version>
-</dependency>
-
-<dependency>
     <groupId>javax.validation</groupId>
     <artifactId>validation-api</artifactId>
 </dependency>
