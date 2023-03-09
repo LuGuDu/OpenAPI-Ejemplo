@@ -1,0 +1,7 @@
+README.md
+pom.xml
+src/main/java/v1/model/User.java
+src/main/java/v1/model/UserWithId.java
+src/main/java/v1/model/UserWithIdAllOf.java
+src/main/java/v1/rest/ApiUtil.java
+src/main/java/v1/rest/UserApi.java
